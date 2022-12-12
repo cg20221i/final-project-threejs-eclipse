@@ -71,7 +71,6 @@ function TrackPointer(callback){
   document.addEventListener('mousemove',pointer.track);
 
   return pointer;
-
 }
 
 var center = new THREE.Vector3(0,1,0);
